@@ -1,9 +1,9 @@
 # cco_poc
 Proof of concept files for an implementation of an information model for complex natural science collections objects. <br>
-This is the first draft using liquibase to illustrate the information model from the manuscript by ; Morris, Macklin, Kelly, and Tocci. <br> this liquibase-project should serve as a basis for a discussion by the Dina consortium. <br>
+This is the first draft using liquibase to illustrate the information model from the manuscript by ; Morris, Macklin, Kelly, and Tocci. <br>
 
 
-## The original DDL for the schema is in:
+## The  DDL for the schema is in:
 src/main/resources/edu/harvard/huh/specify/datamodel/cco_poc/db/tables.sql
 
 #prereq
@@ -36,7 +36,7 @@ run the project
 
 ## How to run the Liquibase-project
 To run the project<br>
-type '**mvn  clean install**' in the same directory that the pom.xml-file resides
+type './up.sh' ( which starts '**mvn  clean install**' )
 
 #important files for maven.
 
